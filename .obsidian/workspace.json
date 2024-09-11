@@ -1,0 +1,353 @@
+{
+  "main": {
+    "id": "139fe2ed120e4f63",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fffda85149079a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21b669c4e82ce3e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Index.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be358711a3e4a639",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f64400fea7689a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3966a5e5cbbe0edb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "blockchain/evm",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7092fea27f4930bc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "9212f1db6ceed303",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 260.5
+  },
+  "right": {
+    "id": "7814631101ecc923",
+    "type": "split",
+    "children": [
+      {
+        "id": "62141e3c68f957bd",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
+          {
+            "id": "2c0517c4eca096f6",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "0. Index.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.75666097005208,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.9736144300618914,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "941c097888ba4bca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. Index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f0b180cc689a4b7b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0. Index.md"
+              }
+            }
+          },
+          {
+            "id": "12dc7fbc63120653",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "2a8d74041eba6d86",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "93ac0fe992e13ade",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3638e159a0e22ab8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. Index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f7b792428d8bc7bb",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
+          {
+            "id": "6224a663bb87da72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. RESOURCE/src/tasks/Today Tasks.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bc9f706a8ef03c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. RESOURCE/src/tasks/Tomorrow Tasks.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6abbb797badc016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. RESOURCE/src/tasks/Future Tasks.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebf301543d2bf9cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. RESOURCE/src/tasks/Overdue Tasks.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "00da00c157c00aa7",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
+          {
+            "id": "ac37a5fd837b0cc4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9cc8a381225ed8c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. RESOURCE/Index/Custom Shortcuts.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 281.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "random-note:Open random note": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "modalforms:Edit forms": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-projects:Open projects": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "21b669c4e82ce3e1",
+  "lastOpenFiles": [
+    "2. RESOURCE/src/articles/Event Loop, Web APIs, (Micro)task Queue.md",
+    "2. RESOURCE/src/university/Data Mining.md",
+    "2. RESOURCE/src/university/Nhập môn ML.md",
+    "0. Index.md",
+    "2. RESOURCE/src/university/Hệ quản trị CSDL.md",
+    "2. RESOURCE/src/university/Test Course.md",
+    "1. PROJECT/Waypoint/Waypoint - Hello World.md",
+    "1. PROJECT/Waypoint/Waypoint.md",
+    "2. RESOURCE/Index/Books.md",
+    "2. RESOURCE/src/books/Mastering Blockchain - Fourth Edition.md",
+    "2. RESOURCE/src/tasks/Today Tasks.md",
+    "2. RESOURCE/src/tasks/Tomorrow Tasks.md",
+    "2. RESOURCE/src/tasks/Future Tasks.md",
+    "2. RESOURCE/src/tasks/Overdue Tasks.md",
+    "2. RESOURCE/Index/Custom Shortcuts.md",
+    "2. RESOURCE/src/books/The 12 Week Year.md",
+    "1. PROJECT/Katana V3/Katana V3.md",
+    "2. RESOURCE/Index/Completed Courses.md",
+    "2. RESOURCE/Index/Ongoing Courses.md",
+    "2. RESOURCE/src/university/Toán Tổ Hợp.md",
+    "2. RESOURCE/src/university/Thuật toán tối ưu.md",
+    "2. RESOURCE/src/university/Thi Cuối kỳ Toán Tổ Hợp.md",
+    "2. RESOURCE/src/university/Thi cuối kỳ Thuật toán tối ưu.md",
+    "2. RESOURCE/src/university/Thi cuối kỳ NMAI.md",
+    "2. RESOURCE/src/university/Thi cuối kỳ Mạng máy tính.md",
+    "2. RESOURCE/src/university/Python cho KHDL.md",
+    "Tech/Tech Sources",
+    "Tech",
+    "1. PROJECT/Waypoint/Tasks",
+    "1. PROJECT/Waypoint",
+    "1. PROJECT/Test Project/Tasks",
+    "1. PROJECT/Test Project",
+    "2. RESOURCE/src/images/Pasted image 20240904112403.png",
+    "2. RESOURCE/src/images/Pasted image 20240904112637.png",
+    "2. RESOURCE/src/images/Pasted image 20240904112622.png",
+    "2. RESOURCE/src/images/Pasted image 20240904112255.png",
+    "2. RESOURCE/src/images/Pasted image 20240904112322.png",
+    "2. RESOURCE/src/images/Pasted image 20240904112310.png",
+    "2. RESOURCE/src/images/Pasted image 20240904112308.png",
+    "2. RESOURCE/src/images/Pasted image 20240430172304.png",
+    "1. PROJECT/Test/Tasks",
+    "1. PROJECT/Test",
+    "1. PROJECT/Katana V3/Tasks",
+    "5. VISUAL NOTES/How to organize Obsidian.canvas",
+    "Daily Notes",
+    "Pasted Image 20240502234823_020.png",
+    "2. RESOURCE/src/images/Pasted Image 20240502234922_728.png"
+  ]
+}

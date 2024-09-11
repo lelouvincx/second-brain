@@ -1,0 +1,198 @@
+{
+  "choices": [
+    {
+      "id": "a73cdde4-f2c8-4c44-858c-5a4d1401e2f4",
+      "name": "CNN - Create New Note",
+      "type": "Macro",
+      "command": true,
+      "macroId": "7d924b6f-2143-428c-98a2-7d9f4eac6052"
+    },
+    {
+      "id": "3301bfae-90f4-41e7-8f33-4de36a7c3b8d",
+      "name": "PA - Project Action",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b01a8a49-2d0a-4910-b98e-9cec3f5c107d"
+    },
+    {
+      "id": "e77e3966-8f18-478c-a87d-7325221a3e13",
+      "name": "NUT - New University Task",
+      "type": "Macro",
+      "command": true,
+      "macroId": "7383639b-f41b-4145-8ace-f0c1aaaf6748"
+    },
+    {
+      "id": "4329afbb-53ab-413c-9269-4560142efbee",
+      "name": "NR - New Resource",
+      "type": "Macro",
+      "command": true,
+      "macroId": "70be2603-5b6b-4313-a0bd-4402da6f6715"
+    },
+    {
+      "id": "ef91dc9d-4913-4d15-af59-eed4136b8443",
+      "name": "Open MOC",
+      "type": "Macro",
+      "command": true,
+      "macroId": "c6d1e6db-5710-4e8e-838a-e0cf9277cee8"
+    },
+    {
+      "id": "911b8ac3-f8b2-4e20-976d-9964a37e993f",
+      "name": "CFN - Create Fleeting Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "2. RESOURCE/templates/Fleeting Notes Template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "6. FLEETING NOTES"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "NUT - New University Task",
+      "id": "7383639b-f41b-4145-8ace-f0c1aaaf6748",
+      "commands": [
+        {
+          "name": "new-task",
+          "type": "UserScript",
+          "id": "31b0ac12-b8af-4389-bf6d-ac9fd5171553",
+          "path": "2. RESOURCE/src/scripts/QuickAdd/new-task.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Open MOC",
+      "id": "c6d1e6db-5710-4e8e-838a-e0cf9277cee8",
+      "commands": [
+        {
+          "name": "open-moc",
+          "type": "UserScript",
+          "id": "473e6ffe-03fd-4da2-8242-08512986f927",
+          "path": "2. RESOURCE/src/scripts/QuickAdd/open-moc.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "NR - New Resource",
+      "id": "70be2603-5b6b-4313-a0bd-4402da6f6715",
+      "commands": [
+        {
+          "name": "new-template",
+          "type": "UserScript",
+          "id": "edfb1c06-bd3c-4cd6-a081-70718c03f53b",
+          "path": "2. RESOURCE/src/scripts/QuickAdd/new-template.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "PA - Project Action",
+      "id": "b01a8a49-2d0a-4910-b98e-9cec3f5c107d",
+      "commands": [
+        {
+          "name": "new-project",
+          "type": "UserScript",
+          "id": "629a6350-3eba-44f8-b765-2a43595579e6",
+          "path": "2. RESOURCE/src/scripts/QuickAdd/new-project.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "CNN - Create New Note",
+      "id": "7d924b6f-2143-428c-98a2-7d9f4eac6052",
+      "commands": [
+        {
+          "name": "new-note",
+          "type": "UserScript",
+          "id": "00f0f7c6-fcbf-444d-bcd3-e999315a874d",
+          "path": "2. RESOURCE/src/scripts/QuickAdd/new-note.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "2. RESOURCE/templates",
+  "announceUpdates": true,
+  "version": "1.8.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

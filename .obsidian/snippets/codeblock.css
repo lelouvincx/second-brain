@@ -1,0 +1,59 @@
+body {
+    --code-normal: rgb(204 201 192);
+}
+
+code {
+    color: rgb(204 201 192)
+}
+
+strong, .cm-strong {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+} 
+
+.cm-em, i, em {
+    color: #ff7563;
+    font-weight: 500;
+    font-style: normal !important;
+    opacity: 1;
+    transition: all 0.15s ease-in-out;
+}
+
+.cm-iem:hover, i:hover, em:hover {
+    opacity: 1;
+}
+
+.cm-inline-code, p > code, li > code {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: rgb(85 206 227) !important;
+}
+
+.token.keyword  {
+    color: rgb(249 164 94);
+}
+
+.token.function {
+    color: rgb(255 209 115)
+}
+
+.token.punctuation {
+    color: rgb(235 212 5)
+}
+
+.token.property-access {
+    font-style: italic;
+    color: rgb(238 157 114)
+}
+
+.token.method.function.property-access {
+    font-style: normal;
+    color: rgb(255 209 115);
+}
+
+.token.console.class-name {
+    color: rgb(204 201 192);
+}
+
+.token.string {
+    color: rgb(212 246 121);
+}

@@ -1,0 +1,21 @@
+{
+  "accentColor": "",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "cssTheme": "Border",
+  "theme": "obsidian",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "tweak",
+    "tasks",
+    "table",
+    "codeblock",
+    "book-dashboard",
+    "project-plugin",
+    "api-table"
+  ],
+  "baseFontSize": 19,
+  "translucency": true,
+  "showViewHeader": true
+}

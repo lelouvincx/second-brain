@@ -1,0 +1,80 @@
+{
+  "callouts": {
+    "custom": [
+      "date",
+      "link",
+      "location",
+      "people",
+      "learn",
+      "toggle"
+    ],
+    "settings": {
+      "date": [
+        {
+          "changes": {
+            "icon": "lucide-calendar",
+            "color": "36, 222, 23"
+          }
+        }
+      ],
+      "link": [
+        {
+          "changes": {
+            "icon": "link",
+            "color": "40, 100, 240"
+          }
+        }
+      ],
+      "location": [
+        {
+          "changes": {
+            "icon": "lucide-map-pin",
+            "color": "240, 0, 84"
+          }
+        }
+      ],
+      "people": [
+        {
+          "changes": {
+            "icon": "lucide-at-sign",
+            "color": "107, 118, 128"
+          }
+        }
+      ],
+      "learn": [
+        {
+          "changes": {
+            "icon": "lucide-book-open"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "24, 153, 15"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "28, 225, 14"
+          }
+        }
+      ],
+      "toggle": [
+        {
+          "changes": {}
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

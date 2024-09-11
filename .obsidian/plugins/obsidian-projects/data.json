@@ -1,0 +1,1299 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "Not Started",
+            "Working On",
+            "Done"
+          ],
+          "richText": true
+        },
+        "Project Status": {
+          "options": [
+            "Wiki",
+            "Meeting",
+            "Backlog",
+            "Todo",
+            "Pending",
+            "Review",
+            "Testing",
+            "Done",
+            "Blocked"
+          ],
+          "richText": false
+        },
+        "Priority": {
+          "options": [
+            "⏬ Lowest",
+            "🔽 Low",
+            "🔼 Medium",
+            "⏫ High",
+            "🔺 Highest"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1. PROJECT/Dobamboo Website",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "includeFields": [
+              "Priority",
+              "Participants",
+              "Platform"
+            ],
+            "groupByField": "Project Status",
+            "columns": {
+              "Wiki": {
+                "records": [],
+                "weight": 0
+              },
+              "Meeting": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website - Meeting 5.md",
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website - Meeting 4.md",
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 3.md",
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 2.md"
+                ],
+                "weight": 1
+              },
+              "Backlog": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Research SEO in Next.js.md",
+                  "1. PROJECT/Dobamboo Website/Integrate Switch Languages Functionality.md"
+                ],
+                "collapse": false,
+                "weight": 2
+              },
+              "Todo": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Admin manage Home Page's content.md"
+                ],
+                "weight": 3
+              },
+              "Pending": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Product Image zoom on hover.md"
+                ],
+                "weight": 4
+              },
+              "Review": {
+                "records": [],
+                "weight": 5
+              },
+              "Testing": {
+                "records": [],
+                "weight": 6
+              },
+              "Done": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Create Product List Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Product Detail Modal.md",
+                  "1. PROJECT/Dobamboo Website/Create Product Detail Page.md",
+                  "1. PROJECT/Dobamboo Website/Setup Prisma Database.md",
+                  "1. PROJECT/Dobamboo Website/Add Navigation Bar subsections (Product Section).md",
+                  "1. PROJECT/Dobamboo Website/Create Home Page.md",
+                  "1. PROJECT/Dobamboo Website/Replace images in Home Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Navigation Bar.md"
+                ],
+                "weight": 7
+              },
+              "Blocked": {
+                "weight": 8,
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Admin manage Navigation Bar's sections.md",
+                  "1. PROJECT/Dobamboo Website/Research Blog API (maybe Blogger API).md",
+                  "1. PROJECT/Dobamboo Website/ISR for Products List Page.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#71eab1",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"wiki\"]"
+                }
+              },
+              {
+                "color": "#00a9c7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"meeting\"]"
+                }
+              },
+              {
+                "color": "#6e00b8",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"frontend\"]"
+                }
+              },
+              {
+                "color": "#9b00a3",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"backend\"]"
+                }
+              },
+              {
+                "color": "#becc00",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"functionality\"]"
+                }
+              },
+              {
+                "color": "#ffb8cb",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"research\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0fa7ed50-756e-4b9c-9d6e-f5fa221a5617",
+          "name": "Kanban View",
+          "type": "board"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "Priority"
+            ],
+            "groupByField": "Status",
+            "columns": {
+              "Done": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Setup Prisma Database.md",
+                  "1. PROJECT/Dobamboo Website/Add Navigation Bar subsections (Product Section).md",
+                  "1. PROJECT/Dobamboo Website/Create Home Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Navigation Bar.md",
+                  "1. PROJECT/Dobamboo Website/Replace images in Home Page.md",
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 2.md"
+                ]
+              },
+              "Not Started": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Create Product Detail Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Product List Page.md",
+                  "1. PROJECT/Dobamboo Website/Admin manage Home Page's content.md",
+                  "1. PROJECT/Dobamboo Website/Admin manage Navigation Bar's sections.md",
+                  "1. PROJECT/Dobamboo Website/Research Blog API (maybe Blogger API).md",
+                  "1. PROJECT/Dobamboo Website/Research SEO in Next.js.md",
+                  "1. PROJECT/Dobamboo Website/Integrate Switch Languages Functionality.md"
+                ]
+              },
+              "Working On": {
+                "records": []
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#71eab1",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"wiki\"]"
+                }
+              },
+              {
+                "color": "#00a9c7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"meeting\"]"
+                }
+              },
+              {
+                "color": "#6e00b8",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"frontend\"]"
+                }
+              },
+              {
+                "color": "#9b00a3",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"backend\"]"
+                }
+              },
+              {
+                "color": "#becc00",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"functionality\"]"
+                }
+              },
+              {
+                "color": "#ffb8cb",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"research\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c06b173f-dbf6-49f9-9edc-6ed20e089706",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "groupByField": "Priority",
+            "includeFields": [
+              "Project Status"
+            ],
+            "columns": {
+              "⏫ High": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 2.md",
+                  "1. PROJECT/Dobamboo Website/Create Product List Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Product Detail Page.md",
+                  "1. PROJECT/Dobamboo Website/Add Navigation Bar subsections (Product Section).md"
+                ]
+              },
+              "🔽 Low": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Create Home Page.md"
+                ]
+              },
+              "🔼 Medium": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Admin manage Navigation Bar's sections.md",
+                  "1. PROJECT/Dobamboo Website/Admin manage Home Page's content.md",
+                  "1. PROJECT/Dobamboo Website/Create Navigation Bar.md"
+                ]
+              },
+              "⏬ Lowest": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Research SEO in Next.js.md",
+                  "1. PROJECT/Dobamboo Website/Integrate Switch Languages Functionality.md"
+                ]
+              },
+              "🔺 Highest": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Research Blog API (maybe Blogger API).md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b927084b-dbfe-4222-a7ea-38f329c4cf4f",
+          "name": "Priority",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "57e48e31-be3a-4b8b-b86b-12cfe5bdbcf5",
+          "name": "Timeline",
+          "type": "calendar"
+        }
+      ],
+      "id": "bc3e5b53-2c37-40b0-a0d7-bdf24538bb63",
+      "name": "Dobamboo"
+    },
+    {
+      "fieldConfig": {
+        "Project Status": {
+          "options": [
+            "Wiki",
+            "Backlog",
+            "Todo",
+            "Pending",
+            "Review",
+            "Testing",
+            "Done",
+            "Blocked",
+            "Archived"
+          ],
+          "richText": false
+        },
+        "Priority": {
+          "options": [
+            "⏬ Lowest",
+            "🔽 Low",
+            "🔼 Medium",
+            "⏫ High",
+            "🔺 Highest"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1. PROJECT/Katana V3",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "includeFields": [
+              "Priority",
+              "Participants",
+              "Platform"
+            ],
+            "groupByField": "Project Status",
+            "columns": {
+              "Wiki": {
+                "weight": 0,
+                "records": [
+                  "1. PROJECT/Katana V3/Uniswap Fee Protocol.md",
+                  "1. PROJECT/Katana V3/Liquidity Chart.md"
+                ]
+              },
+              "Backlog": {
+                "records": [],
+                "weight": 1
+              },
+              "Todo": {
+                "records": [
+                  "1. PROJECT/Katana V3/Tasks/Fix approving token keeps loading.md"
+                ],
+                "weight": 2
+              },
+              "Pending": {
+                "records": [
+                  "1. PROJECT/Katana V3/Tasks/Fix Chart pool by hour data.md",
+                  "1. PROJECT/Katana V3/Tasks/Update new layout for list pages.md"
+                ],
+                "weight": 3
+              },
+              "Review": {
+                "records": [],
+                "weight": 4
+              },
+              "Testing": {
+                "records": [],
+                "weight": 5
+              },
+              "Done": {
+                "records": [
+                  "1. PROJECT/Katana V3/Tasks/Update Tx Info when add or burn liquidity.md",
+                  "1. PROJECT/Katana V3/Tasks/Logic for disable migrate button.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix transaction deadline submission when migrate.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix migrate balance with wrong values.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix Migrate button can navigate although disabled.md"
+                ],
+                "weight": 6
+              },
+              "Blocked": {
+                "records": [
+                  "1. PROJECT/Katana V3/Implement New Flow.md",
+                  "1. PROJECT/Katana V3/Katana V2 Flaws.md"
+                ],
+                "weight": 7
+              },
+              "Archived": {
+                "weight": 8,
+                "records": [
+                  "1. PROJECT/Katana V3/Tasks/Hide pairs that don't have LP and staked farms.md",
+                  "1. PROJECT/Katana V3/Tasks/Add Tooltip Information.md",
+                  "1. PROJECT/Katana V3/Tasks/Change flow of fetching tokens price.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix remove liquidity pagination.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix pagination issue when change account.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix search should show on one tab and pagination.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix Seed Dialog doesn't pop up.md",
+                  "1. PROJECT/Katana V3/Tasks/Update data after user claim fee.md",
+                  "1. PROJECT/Katana V3/Tasks/Update blank table description.md",
+                  "1. PROJECT/Katana V3/Katana V3 Pool Detail Page.md",
+                  "1. PROJECT/Katana V3/Katana V3 My Position Page.md",
+                  "1. PROJECT/Katana V3/Katana V3 Migration Page.md",
+                  "1. PROJECT/Katana V3/Katana V3 Liquidity Pool Page.md",
+                  "1. PROJECT/Katana V3/Uniswap Dependency.md",
+                  "1. PROJECT/Katana V3/Pool List Page POC.md",
+                  "1. PROJECT/Katana V3/Pool Detail Page POC.md",
+                  "1. PROJECT/Katana V3/My Position Page POC.md",
+                  "1. PROJECT/Katana V3/Minor Improvement.md",
+                  "1. PROJECT/Katana V3/Get Token Price.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#71eab1",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"wiki\"]"
+                }
+              },
+              {
+                "color": "#00a9c7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"meeting\"]"
+                }
+              },
+              {
+                "color": "#6e00b8",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"frontend\"]"
+                }
+              },
+              {
+                "color": "#9b00a3",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"improvement\"]"
+                }
+              },
+              {
+                "color": "#becc00",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"functionality\"]"
+                }
+              },
+              {
+                "color": "#ffb8cb",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"research\"]"
+                }
+              },
+              {
+                "color": "#ff6161",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"bigtask\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "322e9357-b5e3-4460-856d-a307e0444452",
+          "name": "Kanban View",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e9510ba9-b2af-41e7-9f9f-65e368aa6dc4",
+          "name": "Timeline",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "dateField": "Finished At",
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9206c979-e48a-4dff-b98d-8e54430b7685",
+          "name": "Finished Timeline",
+          "type": "calendar"
+        }
+      ],
+      "id": "84cb27e6-18fc-4608-98dd-29b193bff626",
+      "name": "Katana V3"
+    },
+    {
+      "fieldConfig": {
+        "Project Status": {
+          "options": [
+            "Wiki",
+            "Backlog",
+            "Todo",
+            "Pending",
+            "Review",
+            "Testing",
+            "Done",
+            "Blocked",
+            "Archived"
+          ],
+          "richText": false
+        },
+        "Priority": {
+          "options": [
+            "⏬ Lowest",
+            "🔽 Low",
+            "🔼 Medium",
+            "⏫ High",
+            "🔺 Highest"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1. PROJECT/Waypoint",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "includeFields": [
+              "Priority",
+              "Participants",
+              "Platform"
+            ],
+            "groupByField": "Project Status",
+            "columns": {
+              "Wiki": {
+                "weight": 0,
+                "records": [
+                  "1. PROJECT/Katana V3/Uniswap Fee Protocol.md",
+                  "1. PROJECT/Katana V3/Liquidity Chart.md"
+                ]
+              },
+              "Backlog": {
+                "records": [],
+                "weight": 1
+              },
+              "Todo": {
+                "records": [
+                  "1. PROJECT/Katana V3/Tasks/Fix approving token keeps loading.md"
+                ],
+                "weight": 2
+              },
+              "Pending": {
+                "records": [
+                  "1. PROJECT/Waypoint/Waypoint - Hello World.md"
+                ],
+                "weight": 3
+              },
+              "Review": {
+                "records": [],
+                "weight": 4
+              },
+              "Testing": {
+                "records": [],
+                "weight": 5
+              },
+              "Done": {
+                "records": [
+                  "1. PROJECT/Katana V3/Tasks/Update Tx Info when add or burn liquidity.md",
+                  "1. PROJECT/Katana V3/Tasks/Logic for disable migrate button.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix transaction deadline submission when migrate.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix migrate balance with wrong values.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix Migrate button can navigate although disabled.md"
+                ],
+                "weight": 6
+              },
+              "Blocked": {
+                "records": [
+                  "1. PROJECT/Katana V3/Implement New Flow.md",
+                  "1. PROJECT/Katana V3/Katana V2 Flaws.md"
+                ],
+                "weight": 7
+              },
+              "Archived": {
+                "weight": 8,
+                "records": [
+                  "1. PROJECT/Katana V3/Tasks/Hide pairs that don't have LP and staked farms.md",
+                  "1. PROJECT/Katana V3/Tasks/Add Tooltip Information.md",
+                  "1. PROJECT/Katana V3/Tasks/Change flow of fetching tokens price.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix remove liquidity pagination.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix pagination issue when change account.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix search should show on one tab and pagination.md",
+                  "1. PROJECT/Katana V3/Tasks/Fix Seed Dialog doesn't pop up.md",
+                  "1. PROJECT/Katana V3/Tasks/Update data after user claim fee.md",
+                  "1. PROJECT/Katana V3/Tasks/Update blank table description.md",
+                  "1. PROJECT/Katana V3/Katana V3 Pool Detail Page.md",
+                  "1. PROJECT/Katana V3/Katana V3 My Position Page.md",
+                  "1. PROJECT/Katana V3/Katana V3 Migration Page.md",
+                  "1. PROJECT/Katana V3/Katana V3 Liquidity Pool Page.md",
+                  "1. PROJECT/Katana V3/Uniswap Dependency.md",
+                  "1. PROJECT/Katana V3/Pool List Page POC.md",
+                  "1. PROJECT/Katana V3/Pool Detail Page POC.md",
+                  "1. PROJECT/Katana V3/My Position Page POC.md",
+                  "1. PROJECT/Katana V3/Minor Improvement.md",
+                  "1. PROJECT/Katana V3/Get Token Price.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#71eab1",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"wiki\"]"
+                }
+              },
+              {
+                "color": "#00a9c7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"meeting\"]"
+                }
+              },
+              {
+                "color": "#6e00b8",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"frontend\"]"
+                }
+              },
+              {
+                "color": "#9b00a3",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"improvement\"]"
+                }
+              },
+              {
+                "color": "#becc00",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"functionality\"]"
+                }
+              },
+              {
+                "color": "#ffb8cb",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"research\"]"
+                }
+              },
+              {
+                "color": "#ff6161",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"bigtask\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e7b578ff-fc51-4763-af89-54f6f5d1c94b",
+          "name": "Kanban View",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e2366f67-50d4-4a97-9b15-f02f11a138be",
+          "name": "Timeline",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "Finished At"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "6cab9354-ea04-4f0b-99ba-54bda96ab5af",
+          "name": "Finished Timeline",
+          "type": "calendar"
+        }
+      ],
+      "id": "8196b7bc-5a09-4a00-be9a-210c61d38323",
+      "name": "Waypoint"
+    }
+  ],
+  "archives": [
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "Not Started",
+            "Working On",
+            "Done"
+          ],
+          "richText": true
+        },
+        "Project Status": {
+          "options": [
+            "Wiki",
+            "Meeting",
+            "Backlog",
+            "Todo",
+            "Pending",
+            "Review",
+            "Testing",
+            "Done",
+            "Blocked"
+          ],
+          "richText": false
+        },
+        "Priority": {
+          "options": [
+            "⏬ Lowest",
+            "🔽 Low",
+            "🔼 Medium",
+            "⏫ High",
+            "🔺 Highest"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "3. ARCHIEVED/CMS Store",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "includeFields": [
+              "Priority",
+              "Participants",
+              "Platform"
+            ],
+            "groupByField": "Project Status",
+            "columns": {
+              "Wiki": {
+                "records": [
+                  "1. PROJECT/Kintsugi API UI Focus/Design Flow.md",
+                  "1. PROJECT/Kintsugi API UI Focus/Ronin Network Wallet Go Lib.md"
+                ],
+                "weight": 0
+              },
+              "Meeting": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website - Meeting 4.md",
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 3.md",
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 2.md"
+                ],
+                "weight": 1
+              },
+              "Backlog": {
+                "records": [
+                  "1. PROJECT/CMS Store/Authorize User's Wallet to use app.md"
+                ],
+                "collapse": false,
+                "weight": 2
+              },
+              "Todo": {
+                "records": [],
+                "weight": 3
+              },
+              "Pending": {
+                "records": [
+                  "1. PROJECT/CMS Store/Create Sidebar.md"
+                ],
+                "weight": 4
+              },
+              "Review": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Create Product List Page.md"
+                ],
+                "weight": 5
+              },
+              "Testing": {
+                "records": [],
+                "weight": 6
+              },
+              "Done": {
+                "records": [
+                  "1. PROJECT/Kintsugi API UI Focus/Design Flow.md"
+                ],
+                "weight": 7
+              },
+              "Blocked": {
+                "weight": 8,
+                "records": [
+                  "1. PROJECT/CMS Store/Sketch on Figma.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#71eab1",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"wiki\"]"
+                }
+              },
+              {
+                "color": "#00a9c7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"meeting\"]"
+                }
+              },
+              {
+                "color": "#6e00b8",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"frontend\"]"
+                }
+              },
+              {
+                "color": "#9b00a3",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"ui\"]"
+                }
+              },
+              {
+                "color": "#becc00",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"functionality\"]"
+                }
+              },
+              {
+                "color": "#ffb8cb",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"research\"]"
+                }
+              },
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"flow\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "86a9ea79-3d33-42be-8e2f-1e95071b239b",
+          "name": "Kanban View",
+          "type": "board"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "Priority"
+            ],
+            "groupByField": "Status",
+            "columns": {
+              "Done": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Setup Prisma Database.md",
+                  "1. PROJECT/Dobamboo Website/Add Navigation Bar subsections (Product Section).md",
+                  "1. PROJECT/Dobamboo Website/Create Home Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Navigation Bar.md",
+                  "1. PROJECT/Dobamboo Website/Replace images in Home Page.md",
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 2.md"
+                ]
+              },
+              "Not Started": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Create Product Detail Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Product List Page.md",
+                  "1. PROJECT/Dobamboo Website/Admin manage Home Page's content.md",
+                  "1. PROJECT/Dobamboo Website/Admin manage Navigation Bar's sections.md",
+                  "1. PROJECT/Dobamboo Website/Research Blog API (maybe Blogger API).md",
+                  "1. PROJECT/Dobamboo Website/Research SEO in Next.js.md",
+                  "1. PROJECT/Dobamboo Website/Integrate Switch Languages Functionality.md"
+                ]
+              },
+              "Working On": {
+                "records": []
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#71eab1",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"wiki\"]"
+                }
+              },
+              {
+                "color": "#00a9c7",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"meeting\"]"
+                }
+              },
+              {
+                "color": "#6e00b8",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"frontend\"]"
+                }
+              },
+              {
+                "color": "#9b00a3",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"backend\"]"
+                }
+              },
+              {
+                "color": "#becc00",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"functionality\"]"
+                }
+              },
+              {
+                "color": "#ffb8cb",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-all-of",
+                  "enabled": true,
+                  "value": "[\"research\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a81c1922-e962-4fa9-ac08-f625f13ccb67",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "groupByField": "Priority",
+            "includeFields": [
+              "Project Status"
+            ],
+            "columns": {
+              "⏫ High": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Dobamboo Website Meeting - 2.md",
+                  "1. PROJECT/Dobamboo Website/Create Product List Page.md",
+                  "1. PROJECT/Dobamboo Website/Create Product Detail Page.md",
+                  "1. PROJECT/Dobamboo Website/Add Navigation Bar subsections (Product Section).md"
+                ]
+              },
+              "🔽 Low": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Create Home Page.md"
+                ]
+              },
+              "🔼 Medium": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Admin manage Navigation Bar's sections.md",
+                  "1. PROJECT/Dobamboo Website/Admin manage Home Page's content.md",
+                  "1. PROJECT/Dobamboo Website/Create Navigation Bar.md"
+                ]
+              },
+              "⏬ Lowest": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Research SEO in Next.js.md",
+                  "1. PROJECT/Dobamboo Website/Integrate Switch Languages Functionality.md"
+                ]
+              },
+              "🔺 Highest": {
+                "records": [
+                  "1. PROJECT/Dobamboo Website/Research Blog API (maybe Blogger API).md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "2d5ac085-b817-49c4-899a-216fe9790620",
+          "name": "Priority",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Project Status",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "76d5d685-3ea6-4baa-bd87-3cd54bb1c27f",
+          "name": "Timeline",
+          "type": "calendar"
+        }
+      ],
+      "id": "62559405-59d7-4a75-9f04-f3bf831178ae",
+      "name": "CMS"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-note"
+  }
+}

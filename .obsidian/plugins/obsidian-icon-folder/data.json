@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🏠",
+      "RoRoninLogo",
+      "LiSword",
+      "📔",
+      "🦄"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "2. RESOURCE/src/tasks/Overdue Tasks.md": "🏃‍♀️",
+  "2. RESOURCE/src/tasks/Today Tasks.md": "🖐",
+  "2. RESOURCE/src/tasks/Tomorrow Tasks.md": "🔎",
+  "2. RESOURCE/src/tasks/Future Tasks.md": "📥",
+  "2. RESOURCE/Index/Custom Shortcuts.md": "LiLayoutDashboard",
+  "1. PROJECT/Katana V3/Katana V3.md": "RoRoninLogo",
+  "2. RESOURCE/Index/Books.md": "📔",
+  "1. PROJECT/Waypoint/Waypoint.md": "RoRoninLogo",
+  "0. Index.md": "🏠"
+}

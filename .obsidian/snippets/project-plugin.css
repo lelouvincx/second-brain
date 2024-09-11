@@ -1,0 +1,38 @@
+.projects--board--card {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 8px 12px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(55 58 78);
+}
+
+.projects--board--card .card-header a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.projects--board--card .card-header a:hover {
+    color: var(--link-color);
+    transition: all .1s ease-in;
+    text-decoration: underline;
+}
+
+.projects--board--card > div:has(span) {
+    padding-top: 40px;
+}
+
+.projects--board--card span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    margin-right: 0px !important;
+    border-radius: 0px !important;
+}
+
+.projects--board--card div:nth-child(2) {
+    font-size: 12px;
+}

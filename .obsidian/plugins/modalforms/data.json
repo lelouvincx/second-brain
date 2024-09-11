@@ -1,0 +1,404 @@
+{
+  "editorPosition": "right",
+  "attachShortcutToGlobalWindow": false,
+  "globalNamespace": "MF",
+  "formDefinitions": [
+    {
+      "title": "New Task",
+      "name": "new-task",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "Input task title",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "dueDate",
+          "label": "Due Date",
+          "description": "When is your task due?",
+          "isRequired": true,
+          "input": {
+            "type": "date"
+          }
+        },
+        {
+          "name": "dueTime",
+          "label": "Due Time",
+          "description": "What is the time your task end?",
+          "isRequired": true,
+          "input": {
+            "type": "time"
+          }
+        },
+        {
+          "name": "priority",
+          "label": "Priority",
+          "description": "Task's Priority",
+          "isRequired": true,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "⏫",
+                "label": "⏫ High Priority"
+              },
+              {
+                "value": "🔼",
+                "label": "🔼 Medium Priority"
+              },
+              {
+                "value": "🔽",
+                "label": "🔽 Low Priority"
+              },
+              {
+                "value": "⏬",
+                "label": "⏬ Lowest Priority"
+              },
+              {
+                "value": "🔺",
+                "label": "🔺 Highest Priority"
+              }
+            ]
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "New Event",
+      "name": "new-event",
+      "fields": [
+        {
+          "name": "startDate",
+          "label": "Start Date",
+          "description": "When will this event start?",
+          "isRequired": true,
+          "input": {
+            "type": "datetime"
+          }
+        },
+        {
+          "name": "endDate",
+          "label": "End Date",
+          "description": "When will this event end?",
+          "isRequired": true,
+          "input": {
+            "type": "datetime"
+          }
+        },
+        {
+          "name": "priority",
+          "label": "Priority",
+          "description": "What is this event's priority?",
+          "isRequired": true,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "⏫",
+                "label": "⏫ High"
+              },
+              {
+                "value": "🔼",
+                "label": "🔼 Medium "
+              },
+              {
+                "value": "🔽",
+                "label": "🔽 Low"
+              }
+            ]
+          }
+        },
+        {
+          "name": "place",
+          "label": "Place",
+          "description": "Where will this event occur?",
+          "isRequired": true,
+          "input": {
+            "type": "tag"
+          }
+        },
+        {
+          "name": "willGo",
+          "label": "Will Go",
+          "description": "Will you attend this event?",
+          "isRequired": false,
+          "input": {
+            "type": "toggle"
+          }
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "description": "Tag your event.",
+          "isRequired": true,
+          "input": {
+            "type": "tag"
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "New Index File",
+      "name": "new-index-file",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "type",
+          "label": "Type",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "related",
+          "label": "Related",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "note",
+            "folder": "2. RESOURCE/Index"
+          }
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "tag"
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "New People",
+      "name": "new-people",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "relationship",
+          "label": "Relationship",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "hometown",
+          "label": "Hometown",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "religious",
+          "label": "Religious",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text"
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "New Article",
+      "name": "new-article",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "source",
+          "label": "Source",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "tag"
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "New Project",
+      "name": "new-project",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "tag"
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "New Project Note",
+      "name": "new-project-note",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "priority",
+          "label": "Priority",
+          "description": "",
+          "isRequired": true,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "🔺 Highest",
+                "label": "🔺 Highest"
+              },
+              {
+                "value": "⏫ High",
+                "label": "⏫ High"
+              },
+              {
+                "value": "🔼 Medium",
+                "label": "🔼 Medium"
+              },
+              {
+                "value": "🔽 Low",
+                "label": "🔽 Low"
+              },
+              {
+                "value": "⏬ Lowest",
+                "label": "⏬ Lowest"
+              }
+            ]
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "New Project Task",
+      "name": "new-project-task",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "Enter task title",
+          "isRequired": true,
+          "input": {
+            "type": "text"
+          }
+        },
+        {
+          "name": "date",
+          "label": "Deadline",
+          "description": "When does your task end?",
+          "isRequired": false,
+          "input": {
+            "type": "date"
+          }
+        },
+        {
+          "name": "priority",
+          "label": "Priority",
+          "description": "Enter task priority",
+          "isRequired": true,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "highest",
+                "label": "🔺 Highest"
+              },
+              {
+                "value": "high",
+                "label": "⏫ High"
+              },
+              {
+                "value": "medium",
+                "label": "🔼 Medium "
+              },
+              {
+                "value": "normal",
+                "label": "Normal"
+              },
+              {
+                "value": "low",
+                "label": "🔽 Low"
+              },
+              {
+                "value": "lowest",
+                "label": "⏬ Lowest"
+              }
+            ]
+          }
+        }
+      ],
+      "version": "1"
+    }
+  ]
+}

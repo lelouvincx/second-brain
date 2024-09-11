@@ -1,0 +1,23 @@
+{
+  "livePreview": true,
+  "spellcheck": false,
+  "rightToLeft": false,
+  "showLineNumber": false,
+  "strictLineBreaks": false,
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "visible",
+  "readableLineLength": true,
+  "legacyEditor": false,
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "2. RESOURCE/src/images",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 81
+  },
+  "showInlineTitle": true
+}

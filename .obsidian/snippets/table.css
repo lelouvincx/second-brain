@@ -1,0 +1,262 @@
+.beautify-table .dataview.table-view-table thead {
+    font-size: 18px;
+}
+
+.beautify-table .dataview.table-view-table tr {
+    font-size: 16px;
+}
+
+.beautify-table .dataview.table-view-table tr td {
+    padding: 8px 8px;
+}
+
+.event-table .dataview.table-view-table td:nth-child(1) {
+    width: 35%;
+}
+
+.event-table .dataview.table-view-table td:nth-child(2) {
+    width: 20%;
+}
+
+.event-table .dataview.table-view-table td:nth-child(3) {
+    width: 30%;
+}
+
+.event-table .dataview.table-view-table td:nth-child(4) {
+    width: 15%;
+}
+
+.meeting-table .dataview.table-view-table td:nth-child(1) {
+    width: 40%;
+}
+
+.meeting-table .dataview.table-view-table td:nth-child(2) {
+    width: 30%;
+}
+
+.meeting-table .dataview.table-view-table td:nth-child(3) {
+    width: 15%;
+}
+
+.meeting-table .dataview.table-view-table td:nth-child(4) {
+    width: 15%;
+}
+
+.beautify-table .dataview.table-view-table tr:nth-child(2n) {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.beautify-table .dataview.table-view-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Book navigation CSS */
+.beautify-table .navigation {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 6px;
+}
+
+.beautify-table .navigation button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    font-weight: 400;
+} 
+
+.beautify-table .navigation button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.beautify-table .navigation button.active {
+    color: white;
+}
+
+.beautify-table .navigation button.active::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    height: 1px;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+/* Ignore navigation in dataview */
+.beautify-table .event-container div:first-child {
+    display: block;
+}
+
+/* Hide all dataview queries */
+.beautify-table .event-container div {
+    display: none;
+}
+
+/* Show book-shelf component on book-shelf class exists */
+.event-table .upcoming div:nth-child(2) {
+    display: block;
+}
+
+/* Repeat the process */
+.event-table .participated div:nth-child(3) {
+    display: block;
+}
+
+.event-table .rejected div:nth-child(4) {
+    display: block;
+}
+
+.event-table .missed div:nth-child(5) {
+    display: block;
+}
+
+.event-table .all div:nth-child(6) {
+    display: block;
+}
+
+/* Ignore navigation in dataview */
+.beautify-table .meeting-container div:first-child {
+    display: block;
+}
+
+/* Hide all dataview queries */
+.beautify-table .meeting-container div {
+    display: none;
+}
+
+/* Show book-shelf component on book-shelf class exists */
+.meeting-table .upcoming div:nth-child(2) {
+    display: block;
+}
+
+/* Repeat the process */
+.meeting-table .completed div:nth-child(3) {
+    display: block;
+}
+
+.meeting-table .missed div:nth-child(4) {
+    display: block;
+}
+
+.meeting-table .all div:nth-child(5) {
+    display: block;
+}
+
+
+/* Ignore navigation in dataview */
+.beautify-table .project-container div:first-child {
+    display: block;
+}
+
+/* Hide all dataview queries */
+.beautify-table .project-container div {
+    display: none;
+}
+
+/* Show book-shelf component on book-shelf class exists */
+.project-table .all div:nth-child(2) {
+    display: block;
+}
+
+/* Repeat the process */
+.project-table .backlog div:nth-child(3) {
+    display: block;
+}
+
+.project-table .todo div:nth-child(4) {
+    display: block;
+}
+
+.project-table .inProgress div:nth-child(5) {
+    display: block;
+}
+
+.project-table .done div:nth-child(6) {
+    display: block;
+}
+
+.project-table .blocked div:nth-child(7) {
+    display: block;
+}
+
+.project-table span.wiki,
+.project-table span.backlog,
+.project-table span.todo,
+.project-table span.pending,
+.project-table span.review,
+.project-table span.testing,
+.project-table span.done,
+.project-table span.blocked,
+.project-table span.archived {
+    font-size: 14px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.project-table span.backlog {
+    color: white;
+    background-color: #6c757d;
+}
+
+.project-table span.wiki {
+    color: white;
+    background-color: #17a2b8;
+}
+
+.project-table span.todo {
+    color: white;
+    background-color: #007bff;
+}
+
+.project-table span.pending {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.project-table span.review {
+    color: white;
+    background-color: #6f42c1;
+}
+
+.project-table span.testing {
+    color: white;
+    background-color: #e83e8c;
+}
+
+.project-table span.done {
+    color: white;
+    background-color: #28a745;
+}
+
+.project-table span.blocked {
+    color: white;
+    background-color: #dc3545;
+}
+
+.project-table span.archived {
+    color: white;
+    background-color: #495057;
+}
+
+.project-table .dataview.table-view-table td:nth-child(1) {
+    width: 55%;
+}
+
+.project-table .dataview.table-view-table td:nth-child(2) {
+    width: 10%;
+}
+
+.project-table .dataview.table-view-table td:nth-child(3) {
+    width: 15%;
+}
+
+.project-table .dataview.table-view-table td:nth-child(4) {
+    width: 20%;
+}
