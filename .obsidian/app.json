@@ -2,10 +2,10 @@
   "livePreview": true,
   "spellcheck": false,
   "rightToLeft": false,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "strictLineBreaks": false,
   "alwaysUpdateLinks": true,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "propertiesInDocument": "visible",
   "readableLineLength": true,
   "legacyEditor": false,
@@ -19,5 +19,6 @@
     "margin": "0",
     "downscalePercent": 81
   },
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "vimMode": true
 }

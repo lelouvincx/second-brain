@@ -14,8 +14,9 @@
   "homepage",
   "quickadd",
   "modalforms",
-  "google-calendar",
   "obsidian-book-search-plugin",
   "obsidian-projects",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-excalidraw-plugin",
+  "obsidian-relative-line-numbers"
 ]

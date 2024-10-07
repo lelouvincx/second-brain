@@ -1,9 +1,9 @@
 {
   "accentColor": "",
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
+  "interfaceFontFamily": "Inter,JetBrainsMono Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font,Inter",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "cssTheme": "Border",
+  "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "nativeMenus": false,
   "enabledCssSnippets": [
@@ -13,9 +13,10 @@
     "codeblock",
     "book-dashboard",
     "project-plugin",
-    "api-table"
+    "api-table",
+    "image-zoom"
   ],
-  "baseFontSize": 19,
+  "baseFontSize": 16,
   "translucency": true,
   "showViewHeader": true
 }

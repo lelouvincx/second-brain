@@ -4,17 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "3fffda85149079a1",
+        "id": "4446afa94cbe0278",
         "type": "tabs",
         "children": [
           {
-            "id": "21b669c4e82ce3e1",
+            "id": "97fb6b0350b25db1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Index.md",
-                "mode": "preview",
+                "file": "4. JOURNAL/2024-10-07.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96f52a704ad6ed2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My Years of Coding.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -80,67 +93,15 @@
       {
         "id": "62141e3c68f957bd",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 29.492600422832982,
         "children": [
-          {
-            "id": "2c0517c4eca096f6",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "0. Index.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1.75666097005208,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.9736144300618914,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "941c097888ba4bca",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "0. Index.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "f0b180cc689a4b7b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Index.md"
+                "file": "4. JOURNAL/2024-10-07.md"
               }
             }
           },
@@ -176,12 +137,81 @@
             }
           },
           {
+            "id": "216f46827487e27a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "4. JOURNAL/2024-10-07.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "461419f66295bc70",
+        "type": "tabs",
+        "dimension": 32.45243128964059,
+        "children": [
+          {
+            "id": "66f6b4bc9908301a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "4. JOURNAL/2024-10-07.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.595703125,
+                  "repelStrength": 5.97005208333333,
+                  "linkStrength": 1,
+                  "linkDistance": 167,
+                  "scale": 1.1746808660488952,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "941c097888ba4bca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "4. JOURNAL/2024-10-07.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
             "id": "3638e159a0e22ab8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Index.md",
+                "file": "4. JOURNAL/2024-10-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,96 +220,23 @@
         ]
       },
       {
-        "id": "f7b792428d8bc7bb",
+        "id": "7374e9745c48d1c0",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 38.05496828752643,
         "children": [
           {
-            "id": "6224a663bb87da72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. RESOURCE/src/tasks/Today Tasks.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4bc9f706a8ef03c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. RESOURCE/src/tasks/Tomorrow Tasks.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6abbb797badc016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. RESOURCE/src/tasks/Future Tasks.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebf301543d2bf9cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. RESOURCE/src/tasks/Overdue Tasks.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "00da00c157c00aa7",
-        "type": "tabs",
-        "dimension": 33.333333333333336,
-        "children": [
-          {
-            "id": "ac37a5fd837b0cc4",
+            "id": "bc022ac9a029b641",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "9cc8a381225ed8c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. RESOURCE/Index/Custom Shortcuts.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 336
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -297,57 +254,58 @@
       "modalforms:Edit forms": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "21b669c4e82ce3e1",
+  "active": "97fb6b0350b25db1",
   "lastOpenFiles": [
-    "2. RESOURCE/src/articles/Event Loop, Web APIs, (Micro)task Queue.md",
-    "2. RESOURCE/src/university/Data Mining.md",
-    "2. RESOURCE/src/university/Nhập môn ML.md",
     "0. Index.md",
+    "4. JOURNAL/2024-10-07.md",
+    "4. JOURNAL/2024-10-05.md",
+    "6. FLEETING NOTES/The attention economy is killing human's deep focus.md",
+    "My Years of Coding.md",
+    "Hai nguyên tắc cơ bản của Zettelkasten.md",
+    "6. FLEETING NOTES/Mạng xã hội tác động âm ỉ và đáng gờm đến cuộc sống cá nhân.md",
+    "2. RESOURCE/src/images/Pasted image 20241005233604.png",
+    "4. JOURNAL/2024-10-03.md",
+    "2. RESOURCE/src/articles/Sử dụng Folder trong Obsidian.md",
+    "6. FLEETING NOTES/An agent with so many tools may suffer from hallucination.md",
+    "4. JOURNAL/2024-10-01.md",
+    "4. JOURNAL/2024-09-30.md",
+    "2. RESOURCE/Index/LLM.md",
+    "2. RESOURCE/src/articles/Understanding the G-Eval Metric  sapientpants.md",
+    "2. RESOURCE/src/articles/Event Loop, Web APIs, (Micro)task Queue.md",
+    "Disaster Recovery.md",
+    "6. FLEETING NOTES/Zettelkasten is complex for beginner.md",
+    "6. FLEETING NOTES/How John Fish balances everything.md",
+    "6. FLEETING NOTES/Users is not comfortable if the chat frame of AI Chatbot too small.md",
+    "6. FLEETING NOTES/Script tính GPA.md",
+    "2. RESOURCE/Index/Youtube.md",
     "2. RESOURCE/src/university/Hệ quản trị CSDL.md",
-    "2. RESOURCE/src/university/Test Course.md",
-    "1. PROJECT/Waypoint/Waypoint - Hello World.md",
-    "1. PROJECT/Waypoint/Waypoint.md",
-    "2. RESOURCE/Index/Books.md",
-    "2. RESOURCE/src/books/Mastering Blockchain - Fourth Edition.md",
-    "2. RESOURCE/src/tasks/Today Tasks.md",
-    "2. RESOURCE/src/tasks/Tomorrow Tasks.md",
-    "2. RESOURCE/src/tasks/Future Tasks.md",
-    "2. RESOURCE/src/tasks/Overdue Tasks.md",
-    "2. RESOURCE/Index/Custom Shortcuts.md",
-    "2. RESOURCE/src/books/The 12 Week Year.md",
-    "1. PROJECT/Katana V3/Katana V3.md",
-    "2. RESOURCE/Index/Completed Courses.md",
     "2. RESOURCE/Index/Ongoing Courses.md",
-    "2. RESOURCE/src/university/Toán Tổ Hợp.md",
-    "2. RESOURCE/src/university/Thuật toán tối ưu.md",
-    "2. RESOURCE/src/university/Thi Cuối kỳ Toán Tổ Hợp.md",
-    "2. RESOURCE/src/university/Thi cuối kỳ Thuật toán tối ưu.md",
-    "2. RESOURCE/src/university/Thi cuối kỳ NMAI.md",
-    "2. RESOURCE/src/university/Thi cuối kỳ Mạng máy tính.md",
-    "2. RESOURCE/src/university/Python cho KHDL.md",
-    "Tech/Tech Sources",
-    "Tech",
-    "1. PROJECT/Waypoint/Tasks",
-    "1. PROJECT/Waypoint",
-    "1. PROJECT/Test Project/Tasks",
-    "1. PROJECT/Test Project",
+    "2. RESOURCE/src/university/Data Mining.md",
+    "6. FLEETING NOTES/From 1Long's observation.md",
+    "The Zettelkasten Method.md",
+    "2. RESOURCE/src/profile",
+    "2. RESOURCE/src/images/Pasted image 20241001115523.png",
+    "2. RESOURCE/src/images/Pasted image 20241001113919.png",
+    "2. RESOURCE/src/images/Pasted image 20241001113853.png",
+    "2. RESOURCE/src/images/Pasted image 20241001113145.png",
+    "2. RESOURCE/src/images/Pasted image 20241001113131.png",
+    "2. RESOURCE/src/images/my-linkedin.webm",
+    "2. RESOURCE/src/images/spark-data-platform.webm",
+    "2. RESOURCE/src/images/simplescreenrecorder-2023-07-21_22.42.56.mp4",
+    "2. RESOURCE/src/images/simplescreenrecorder-2023-02-20_19.19.03.mp4",
+    "2. RESOURCE/src/images/simplescreenrecorder-2023-01-29_18.20.39.mkv",
+    "2. RESOURCE/src/images/simplescreenrecorder-2022-11-08_00.30.07.mkv",
+    "5. VISUAL NOTES/How to organize Obsidian.canvas",
+    "5. VISUAL NOTES/dobamboo-workflow.excalidraw",
+    "5. VISUAL NOTES/cms-workflow.excalidraw",
+    "5. VISUAL NOTES/cms-signature-lifecycle.excalidraw",
     "2. RESOURCE/src/images/Pasted image 20240904112403.png",
     "2. RESOURCE/src/images/Pasted image 20240904112637.png",
     "2. RESOURCE/src/images/Pasted image 20240904112622.png",
-    "2. RESOURCE/src/images/Pasted image 20240904112255.png",
-    "2. RESOURCE/src/images/Pasted image 20240904112322.png",
-    "2. RESOURCE/src/images/Pasted image 20240904112310.png",
-    "2. RESOURCE/src/images/Pasted image 20240904112308.png",
-    "2. RESOURCE/src/images/Pasted image 20240430172304.png",
-    "1. PROJECT/Test/Tasks",
-    "1. PROJECT/Test",
-    "1. PROJECT/Katana V3/Tasks",
-    "5. VISUAL NOTES/How to organize Obsidian.canvas",
-    "Daily Notes",
-    "Pasted Image 20240502234823_020.png",
-    "2. RESOURCE/src/images/Pasted Image 20240502234922_728.png"
+    "2. RESOURCE/src/images/Pasted image 20240904112255.png"
   ]
 }

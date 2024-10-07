@@ -1,7 +1,7 @@
 ---
 Type: Project
 Related:
-  - "[[Ongoing Project]]"
+  - "[[Archieved Project]]"
 Status: Not Started
 Created At: 2024-05-03T11:06:10
 tags:
@@ -11,4 +11,5 @@ tags:
   - second-brain
   - nextjs
   - vercel
+  - shortcut
 ---

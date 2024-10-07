@@ -55,6 +55,7 @@
     "Platform": "multitext",
     "Finished At": "date",
     "Is Finished": "checkbox",
-    "test": "date"
+    "test": "date",
+    "excalidraw-embeddable-theme": "text"
   }
 }
